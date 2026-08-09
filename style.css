@@ -22,13 +22,21 @@ a:hover {
     text-align: center;
     padding: 12px;
     align-items: center;
+    background-color: aliceblue;
 }
 
 .navbar a {
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: x-large;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: large;
+}
+
+.navbar h1 {
+    text-align: left;
+    font-size: xx-large;
 }
 
 
-/* To add: About me, Project entry */
+/* To add: About me, Project entry, Contact form */
