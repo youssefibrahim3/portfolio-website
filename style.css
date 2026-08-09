@@ -4,9 +4,23 @@ body {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     background-color:bisque;
-    display: flex
+    display: flex;
+    flex-direction: column;
 }
 
-body {
-    font-family: system-ui, -apple-system, sans-serif;
+a {
+    color:aqua;
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    text-align: center;
+    padding: 12px;
+    
+}
+
+/* To add: About me, Project entry */
