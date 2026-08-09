@@ -19,7 +19,7 @@ a:hover {
 }
 
 .navbar {
-    text-align: center;
+    text-align: left;
     padding: 12px;
     align-items: center;
     background-color: aliceblue;
@@ -36,7 +36,12 @@ a:hover {
 .navbar h1 {
     text-align: left;
     font-size: xx-large;
+    display:inline
 }
 
 
 /* To add: About me, Project entry, Contact form */
+
+.aboutme {
+    justify-content: center;
+}
