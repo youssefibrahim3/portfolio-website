@@ -1,0 +1,79 @@
+
+
+.aboutme {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 800px;
+    margin: 60px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.aboutme h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+}
+
+.aboutme p {
+    text-align: center;
+    color: #4a4a4a;
+    max-width: 60ch;
+    margin: 0 auto;
+}
+
+
+.skill-selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 32px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.skillbutton {
+    flex: 1;
+    padding: 0.5rem .75rem;
+    border: none;
+    border-radius: 8px;
+    color: #9aa4c0;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: large;
+    transition: background 0.2s, color 0.2s;
+}
+
+.skillbutton:hover {
+    color: #fff;
+}
+
+.skillbutton.active {
+    background: #3b82f6;
+    color: #fff;
+}
+
+.skill-panel {
+    display: none;
+    gap: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.skill-panel.active {
+    display: grid;
+}
+
+.skill-card {
+    background: #12172b;
+    border: 1px solid #232a45;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    color: #e2e8f0;
+    font-weight: 600;
+}
