@@ -59,8 +59,8 @@
 .skill-panel {
     display: none;
     gap: 1rem;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 
@@ -69,8 +69,8 @@
 }
 
 .skill-card {
-    background: #12172b;
-    border: 1px solid #232a45;
+    background: #474d63;
+    border: 1px solid #2f3b6d;
     border-radius: 10px;
     padding: 1.5rem;
     text-align: center;
