@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link href="about-style.css" rel="stylesheet">
 </head>
   
 <body>
@@ -21,6 +22,30 @@
         <section class="aboutme">
             <h2>About Me</h2>
             <p>About me text.</p>
+        </section>
+    
+        <section class="skills">
+                <h2>Skills</h2>
+
+                <div class="skill-selector">
+                    <button class="skillbutton" data-tab="core">Core</button>
+                    <button class="skillbutton" data-tab="backend">Backend</button>
+                    <button class="skillbutton" data-tab="frontend">Frontend</button>
+                </div>
+                
+                <div class="skill-panel active" data-panel="frontend">
+                    <div class="skill-card">React</div>
+                    <div class="skill-card">TailwindCSS</div>
+                    <div class="skill-card">TypeScript</div>
+                    <div class="skill-card">JavaScript</div>
+                    <div class="skill-card">React</div>
+                </div>
+
+                <div class="skill-panel active" data-panel="backend">
+                    <div class="skill-card">React</div>
+                    <div class="skill-card">tt</div>
+
+                </div>
         </section>
     </main>
 
