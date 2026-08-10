@@ -67,3 +67,21 @@ a:hover {
 }
 
 /* To add: About me, Project entry, Contact form */
+.project {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 900px;
+    color: #e5e5e5;
+}
+
+.project h3 {
+    color: #ff9505;
+    margin-bottom: 10px;
+}
+
+.project p {
+    line-height: 1.6;
+}
