@@ -10,6 +10,10 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     text-align: center;
     font-weight: bold;
@@ -75,19 +79,29 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     max-width: 900px;
     color: #e5e5e5;
+    text-align: center;
 }
 
 .project h3 {
     color: #3b82f6;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 .project p {
     line-height: 1.6;
-    text-align: center;
 }
 
+.project a {
+    color: #e5e5e5;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.2s;
+}
+
+.project a:hover {
+    color: #2563eb;
+}
 form {
     max-width: 600px;
     width: 100%;
