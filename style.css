@@ -26,6 +26,12 @@ a {
     transition: color 0.2s;
 }
 
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
 a:hover {
     color: #2563eb;
 }
